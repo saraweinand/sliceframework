@@ -264,12 +264,12 @@ section {
 	.twenty-eighty section:nth-child(1), 
 	.twenty-eighty section:nth-child(2), 
 	.seventy-thirty section:nth-child(1), 
-	.seventy-thirty section:nth-child(2) ,
-	.thirty-seventy section:nth-child(1) ,
+	.seventy-thirty section:nth-child(2),
+	.thirty-seventy section:nth-child(1),
 	.thirty-seventy section:nth-child(2), 
-	.sixty-fourty section:nth-child(1) ,
-	.sixty-fourty section:nth-child(2) ,
-	.fourty-sixty section:nth-child(1) ,
+	.sixty-fourty section:nth-child(1),
+	.sixty-fourty section:nth-child(2),
+	.fourty-sixty section:nth-child(1),
 	.fourty-sixty section:nth-child(2){
 		width:100%;
 	} 

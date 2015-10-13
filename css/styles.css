@@ -261,6 +261,24 @@ div.fifty-fifty {
 }
 
 
+@media screen and (max-width: 480px) {
+	.col.ten-ninety section.col.two-even section,
+	.col.ten-ninety section.col.three-even section,
+	.col.ten-ninety section.col.four-even section,
+	.col.ten-ninety section.col.five-even section,
+	.col.ten-ninety section.col.six-even section,
+	.col.ten-ninety section.col.seven-even section,
+	.col.ten-ninety section.col.eight-even section,
+	.col.ten-ninety section.col.nine-even section,
+	.col.ten-ninety section.col.ten-even section,
+	.col.fifty-fifty section
+	{
+		width:100%;
+	} 
+
+}
+
+
 
 
 
