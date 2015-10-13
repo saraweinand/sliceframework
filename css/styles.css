@@ -1,5 +1,263 @@
-section img {
+body {
+	font-family: 'Futura', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	padding: .25em 0;
+	margin: 0;
+}
+.landing {
+	background: #94CEDC;
+}
+.landing svg {
+	width: 40%;
+	min-width: 300px;
+	display: block;
+	margin: 0 auto;
+	padding: 8% 0 5% 0;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 300;
+	font-size: 2em;
+}
+
+h2 {
+	text-align: center;
+	font-weight: 300;
+	font-size: 1em;
+	text-transform: uppercase;
+	color: #444;
+
+}
+
+h3 {
+	text-align: center;
+	margin: 5% 0;
+	padding: 0 15%;
+}
+
+h4 {
+	font-size: 1.25em;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 1em;
+}
+
+h5 {
+	font-size: 1em;
+}
+
+h6 {
+	text-align: center;
+	padding: 1em 0;
+	color: #fff;
+}
+
+p {
+	text-align: center;
+	padding: 0 5%;
+	font-family: 'proxmima nova' sans-serif;
+	font-size: .9em;
+	font-weight: 300;
+	color: #444;
+}
+
+button {
+	padding: 1em 3em;
+	text-transform: uppercase;
+	font-size: .75em;
+	display: block;
+	margin: 3% auto;
+	border: none;
+	color: #fff;
+	background: #DB7819;
+	text-decoration: none;
+}
+
+.nav {
+	background-color: #444
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0 0 0 2em;
+  margin: 0;
+  float: left;
+}
+
+.nav ul:last-of-type {
+	float: right;
+	display: inline-block;
+	padding: 0 2em 0 0;
+}
+.nav li {
+	display: inline-block;
+  font-size: 1.2em;
+  padding: .75em .25em;
+}
+
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+
+section.title {
 	width: 100%;
+}
+
+.features svg {
+	width: 40%;
+	display: block;
+	margin: 0 auto;
+}
+
+.title h1 {
+	padding-top: 5%;
+}
+
+.title h2 {
+	margin: 5% 0 2% 0;
+}
+
+.title h3 {
+	margin: 0 0 5% 0;
+	color: #444;
+	font-weight: 100;
+	font-size: 1em;
+}
+
+div.three-even,
+div.twenty-eighty,
+div.ten-ninety,
+div.thirty-seventy,
+div.fifty-fifty {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	float: none;
+}
+
+.col.ten-ninety,
+.col.twenty-eighty,
+.col.thirty-seventy,
+.col.fourty-sixty,
+.col.fifty-fifty,
+.col.sixty-fourty,
+.col.seventy-thirty,
+.col.eighty-twenty,
+.col.ninety-ten,
+.col.one,
+.col.two-even,
+.col.three-even,
+.col.four-even,
+.col.five-even,
+.col.six-even,
+.col.seven-even,
+.col.eight-even,
+.col.nine-even,
+.col.ten-even {
+	margin-bottom: 1%;
+}
+
+.col.one:first-child {
+	margin: -1% 0 0 0;
+}
+
+.col.one:last-child {
+	margin: 0% 0 0 0;
+}
+
+
+.fork {
+	background: #DB7819;
+	margin-top: 5%;
+}
+
+.fork button {
+	background: #fff;
+	color: #444;
+}
+
+.examples section:nth-child(odd) {
+	background: #94CEDC;
+}
+.examples section:nth-child(even) {
+	background: #3E575C;
+}
+
+.col.ten-ninety section.col.one section {
+	width: 100%;
+}
+.col.ten-ninety section.col.two-even section {
+	width: 50%;
+}
+.col.ten-ninety section.col.three-even section {
+	width: 33.33%;
+}
+.col.ten-ninety section.col.four-even section {
+	width: 25%;
+}
+.col.ten-ninety section.col.five-even section {
+	width: 20%;
+}
+.col.ten-ninety section.col.six-even section {
+	width:16.667%;
+}
+.col.ten-ninety section.col.seven-even section {
+	width:14.2857%;
+}
+.col.ten-ninety section.col.eight-even section {
+	width:12.5%;
+}
+.col.ten-ninety section.col.nine-even section {
+	width:11.11%;
+}
+.col.ten-ninety section.col.ten-even section {
+	width:10%;
+}
+
+
+.uikits {
+	margin: 5% 0;
+}
+
+.uikits h4 {
+	color: #DB7819;
+	font-size: 3em;
+}
+
+.documentation-snippits h2 {
+	text-align: left;
+}
+
+.documentation-snippits p {
+	text-align: left;
+	padding-left: 0;
+}
+
+.codebox {
+	background: #eee;
+	margin-bottom: 3%;
+}
+
+.codebox em:first-child {
+	color: #DB7819;
+}
+
+.codebox em {
+	color: #3E575C;
+}
+
+
+.footer {
+	font-family: 'proxmima nova' sans-serif;
+	font-weight: 300;
+	background: #94CEDC;
 }
 
 

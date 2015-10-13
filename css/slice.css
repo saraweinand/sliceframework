@@ -6,7 +6,6 @@
 	overflow-y: hidden;
 }
 
-
 .col {
 	margin:0;
 	padding:0;
@@ -43,8 +42,7 @@ section {
 	width: 100%;
 }
 
-.two-even section,
-.fifty-fifty {
+.two-even section{
   	width: 50%;
 }
 
@@ -153,11 +151,13 @@ section {
 }
 
 
-/* Tablet Devices - Landscape */
+/*---- 50-50 ----*/
+.fifty-fifty section:nth-child(1) {
+	width: 50%;
+}
 
-@media screen and (max-width: 1024px) {
-	 
-
+.fifty-fifty section:nth-child(2) {
+	width: 50%;
 }
 
 /* Tablet Devices - Portrait */
@@ -236,31 +236,12 @@ section {
 
 }
 
-/* Large Mobile Phones:
-iPhone 6(Portrait)
-iPhone 6+ (Portrait & Landscape) */
-
-@media screen and (max-width: 736px) {
-	
-
-}
-
-/* Medium Mobile Phones:
-iPhone 5(Landscape)
-iPhone 6 (Portrait) */
-
-@media screen and (max-width: 568px) {
-	
-
-}
 
 
 
 
 
-/* Small Mobile Phones:
-iPhone 4(Portrait & Landscape)
-iPhone 5 (Portrait) */
+/* Mobile Phones*/
 
 @media screen and (max-width: 480px) {
 	.two-even section,
