@@ -182,9 +182,59 @@ section {
 	.five-even section:nth-child(5){
 		width:33.33%;
 	}
-	.six-even section{
+	.six-even section:nth-child(1),
+	.six-even section:nth-child(2),
+	.six-even section:nth-child(3),
+	.six-even section:nth-child(4),
+	.six-even section:nth-child(5),
+	.six-even section:nth-child(6){
 		width:33.33%;
 	}
+	.seven-even section:nth-child(1),
+	.seven-even section:nth-child(2),
+	.seven-even section:nth-child(3){
+		width: 33.33%;
+	}
+	.seven-even section:nth-child(4),
+	.seven-even section:nth-child(5),
+	.seven-even section:nth-child(6),
+	.seven-even section:nth-child(7){
+		width:25%;
+	}
+	.eight-even section:nth-child(1),
+	.eight-even section:nth-child(2),
+	.eight-even section:nth-child(3),
+	.eight-even section:nth-child(4),
+	.eight-even section:nth-child(5),
+	.eight-even section:nth-child(6),
+	.eight-even section:nth-child(7),
+	.eight-even section:nth-child(8){
+		width:25%;
+	}
+	.nine-even section:nth-child(1),
+	.nine-even section:nth-child(2),
+	.nine-even section:nth-child(3),
+	.nine-even section:nth-child(4),
+	.nine-even section:nth-child(5),
+	.nine-even section:nth-child(6),
+	.nine-even section:nth-child(7),
+	.nine-even section:nth-child(8),
+	.nine-even section:nth-child(9){
+		width:33.33%;
+	}
+	.ten-even section:nth-child(1),
+	.ten-even section:nth-child(2),
+	.ten-even section:nth-child(3),
+	.ten-even section:nth-child(4),
+	.ten-even section:nth-child(5),
+	.ten-even section:nth-child(6),
+	.ten-even section:nth-child(7),
+	.ten-even section:nth-child(8),
+	.ten-even section:nth-child(9),
+	.ten-even section:nth-child(10){
+		width:20%;
+	}
+
 	.ten-ninety section:nth-child(1) {
 	width: 20%;
 	}
@@ -234,6 +284,11 @@ section {
 	width: 50%;
 	}
 
+	.fifty-fifty section:nth-child(1),
+	 .fifty-fifty section:nth-child(2){
+	width: 50%;
+	}
+
 }
 
 
@@ -245,34 +300,61 @@ section {
 
 @media screen and (max-width: 480px) {
 	.two-even section,
-	.three-even section:nth-child(1),
-	.three-even section:nth-child(2),
-	.three-even section:nth-child(3),
+	.three-even section,
 	.four-even section,
-	.five-even section:nth-child(1),
+	.fifty-fifty section
+	{
+		width:100%;
+	} 
+
+	.nine-even section {
+		width: 33.33%;
+	}
+
+	.ten-even section {
+		width: 20%;
+	}
+
+	
+	.six-even section,
+	.seven-even section,
+	.eight-even section {
+		width: 50%;
+	}
+
+	.five-even section:nth-child(1) {
+		width: 100%;
+	}
 	.five-even section:nth-child(2),
 	.five-even section:nth-child(3),
 	.five-even section:nth-child(4),
-	.five-even section:nth-child(5),
-	.six-even section,
-	.ten-ninety section:nth-child(1),
-	.ten-ninety section:nth-child(2), 
-	.ninety-ten section:nth-child(1), 
-	.ninety-ten section:nth-child(2), 
-	.eighty-twenty section:nth-child(1), 
-	.eighty-twenty section:nth-child(2), 
-	.twenty-eighty section:nth-child(1), 
-	.twenty-eighty section:nth-child(2), 
-	.seventy-thirty section:nth-child(1), 
-	.seventy-thirty section:nth-child(2),
-	.thirty-seventy section:nth-child(1),
-	.thirty-seventy section:nth-child(2), 
-	.sixty-fourty section:nth-child(1),
-	.sixty-fourty section:nth-child(2),
-	.fourty-sixty section:nth-child(1),
-	.fourty-sixty section:nth-child(2){
-		width:100%;
-	} 
+	.five-even section:nth-child(5) {
+		width: 50%;
+	}
+
+	.seven-even section:nth-child(1) {
+		width: 100%;
+	}
+	.seven-even section:nth-child(2),
+	.seven-even section:nth-child(3),
+	.seven-even section:nth-child(4),
+	.seven-even section:nth-child(5),
+	.seven-even section:nth-child(6),
+	.seven-even section:nth-child(7) {
+		width: 50%;
+	}
+
+	.ten-ninety section,
+	.twenty-eighty section,
+	.thirty-seventy section,
+	.fourty-sixty section,
+	.fifty-fifty section,
+	.sixty-fourty section,
+	.seventy-thirty section,
+	.eighty-twenty section,
+	.ninety-ten section {
+		width: 100%;
+	}
 
 }
 

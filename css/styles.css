@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6 {
 	min-width: 300px;
 	display: block;
 	margin: 0 auto;
-	padding: 8% 0 5% 0;
+	padding: 6% 0 5% 0;
 }
 
 h1 {
@@ -76,8 +76,36 @@ button {
 	text-decoration: none;
 }
 
+a {
+	text-decoration: none;
+}
+
 .nav {
-	background-color: #444
+	background-color: #444;
+	font-family: 'Lato', sans-serif;
+}
+
+.nav ul.logo li a img{
+	width: 3.5em;
+}
+
+.nav li a img {
+	width: 2em;
+	padding: 0;
+	vertical-align: middle;
+}
+
+.nav li a img:hover {
+	opacity: .7;
+}
+
+.nav li:nth-child(4) a img {
+	width: 1.25em;
+	padding: 0;
+}
+
+.nav li:nth-child(4) {
+	margin-left: 2em;
 }
 
 .nav ul {
@@ -94,8 +122,10 @@ button {
 }
 .nav li {
 	display: inline-block;
-  font-size: 1.2em;
-  padding: .75em .25em;
+  font-size: 1em;
+  padding: 1em .25em .75em .25em;
+  font-weight: 300;
+
 }
 
  
@@ -104,6 +134,10 @@ button {
   color: #fff;
   display: block;
   transition: .3s background-color;
+}
+
+.nav a:hover {
+	color: #d97827;
 }
 
 section.title {
@@ -183,6 +217,10 @@ div.fifty-fifty {
 	color: #444;
 }
 
+.fork a {
+	text-decoration: none;
+}
+
 .examples section:nth-child(odd) {
 	background: #94CEDC;
 }
@@ -221,6 +259,10 @@ div.fifty-fifty {
 	width:10%;
 }
 
+.ten-ninety section.col.one section:nth-child(1){
+		width: 100%;
+		margin-bottom: 1%;
+	}
 
 .uikits {
 	margin: 5% 0;
@@ -261,20 +303,208 @@ div.fifty-fifty {
 }
 
 
+@media screen and (max-width: 768px) {
+
+
+	.fifty-fifty section:nth-child(1),
+.fifty-fifty section:nth-child(2) {
+	width: 100%;
+}
+
+.fifty-fifty section:nth-child(2) {
+	margin-bottom: 5%;
+}
+
+	.ten-ninety section.col.one section:nth-child(1){
+		width: 100%;
+		margin-bottom: 1%;
+	}
+
+	.ten-ninety section.col.two-even section:nth-child(1),
+	.ten-ninety section.col.two-even section:nth-child(2){
+		width: 50%;
+	}
+
+	.ten-ninety section.col.three-even section:nth-child(1),
+	.ten-ninety section.col.three-even section:nth-child(2){
+		width:50%;
+	}
+	.ten-ninety section.col.three-even section:nth-child(3){
+		width:100%;
+	}
+	.ten-ninety section.col.four-even section{
+		width:50%;
+	}
+	.ten-ninety section.col.five-even section:nth-child(1),
+	.ten-ninety section.col.five-even section:nth-child(2){
+		width:50%;
+	}
+	.ten-ninety section.col.five-even section:nth-child(3),
+	.ten-ninety section.col.five-even section:nth-child(4),
+	.ten-ninety section.col.five-even section:nth-child(5){
+		width:33.33%;
+	}
+	.ten-ninety section.col.six-even section:nth-child(1),
+	.ten-ninety section.col.six-even section:nth-child(2),
+	.ten-ninety section.col.six-even section:nth-child(3),
+	.ten-ninety section.col.six-even section:nth-child(4),
+	.ten-ninety section.col.six-even section:nth-child(5),
+	.ten-ninety section.col.six-even section:nth-child(6){
+		width:33.33%;
+	}
+	.ten-ninety section.col.seven-even section:nth-child(1),
+	.ten-ninety section.col.seven-even section:nth-child(2),
+	.ten-ninety section.col.seven-even section:nth-child(3){
+		width: 33.33%;
+	}
+	.ten-ninety section.col.seven-even section:nth-child(4),
+	.ten-ninety section.col.seven-even section:nth-child(5),
+	.ten-ninety section.col.seven-even section:nth-child(6),
+	.ten-ninety section.col.seven-even section:nth-child(7){
+		width:25%;
+	}
+	.ten-ninety section.col.eight-even section:nth-child(1),
+	.ten-ninety section.col.eight-even section:nth-child(2),
+	.ten-ninety section.col.eight-even section:nth-child(3),
+	.ten-ninety section.col.eight-even section:nth-child(4),
+	.ten-ninety section.col.eight-even section:nth-child(5),
+	.ten-ninety section.col.eight-even section:nth-child(6),
+	.ten-ninety section.col.eight-even section:nth-child(7),
+	.ten-ninety section.col.eight-even section:nth-child(8){
+		width:25%;
+	}
+	.ten-ninety section.col.nine-even section:nth-child(1),
+	.ten-ninety section.col.nine-even section:nth-child(2),
+	.ten-ninety section.col.nine-even section:nth-child(3),
+	.ten-ninety section.col.nine-even section:nth-child(4),
+	.ten-ninety section.col.nine-even section:nth-child(5),
+	.ten-ninety section.col.nine-even section:nth-child(6),
+	.ten-ninety section.col.nine-even section:nth-child(7),
+	.ten-ninety section.col.nine-even section:nth-child(8),
+	.ten-ninety section.col.nine-even section:nth-child(9){
+		width:33.33%;
+	}
+	.ten-ninety section.col.ten-even section:nth-child(1),
+	.ten-ninety section.col.ten-even section:nth-child(2),
+	.ten-ninety section.col.ten-even section:nth-child(3),
+	.ten-ninety section.col.ten-even section:nth-child(4),
+	.ten-ninety section.col.ten-even section:nth-child(5),
+	.ten-ninety section.col.ten-even section:nth-child(6),
+	.ten-ninety section.col.ten-even section:nth-child(7),
+	.ten-ninety section.col.ten-even section:nth-child(8),
+	.ten-ninety section.col.ten-even section:nth-child(9),
+	.ten-ninety section.col.ten-even section:nth-child(10){
+		width:20%;
+	}
+	.ten-ninety section.col.ten-ninety section:nth-child(1) {
+	width: 20%;}
+	.ten-ninety section.col.ten-ninety section:nth-child(2) {
+	width: 80%;}
+	.ten-ninety section.col.ninety-ten section:nth-child(1) {
+	width: 80%;}
+	.ten-ninety section.col.ninety-ten section:nth-child(2) {
+	width: 20%;}
+
+	.ten-ninety section.col.eighty-twenty section:nth-child(1) {
+	width: 70%;}
+	.ten-ninety section.col.eighty-twenty section:nth-child(2) {
+	width: 30%;}
+	.ten-ninety section.col.twenty-eighty section:nth-child(1) {
+	width: 30%;}
+	.ten-ninety section.col.twenty-eighty section:nth-child(2) {
+	width: 70%;}
+
+	.ten-ninety section.col.seventy-thirty section:nth-child(1) {
+	width: 60%;
+	}
+	.ten-ninety section.col.seventy-thirty section:nth-child(2) {
+	width: 40%;
+	}
+	.ten-ninety section.col.thirty-seventy section:nth-child(1) {
+	width: 40%;
+	}
+	.ten-ninety section.col.thirty-seventy section:nth-child(2) {
+	width: 60%;
+	}
+	.ten-ninety section.col.sixty-fourty section:nth-child(1) {
+	width: 50%;
+	}
+	.ten-ninety section.col.sixty-fourty section:nth-child(2) {
+	width: 50%;
+	}
+	.ten-ninety section.col.fourty-sixty section:nth-child(1) {
+	width: 50%;
+	}
+	.ten-ninety section.col.fourty-sixty section:nth-child(2) {
+	width: 50%;
+	}
+
+	.ten-ninety section.col.fifty-fifty section:nth-child(1),
+	.ten-ninety section.col.fifty-fifty section:nth-child(2) {
+	width: 50%;
+	margin-bottom: 0;
+	}
+
+}
+
+
 @media screen and (max-width: 480px) {
 	.col.ten-ninety section.col.two-even section,
 	.col.ten-ninety section.col.three-even section,
 	.col.ten-ninety section.col.four-even section,
-	.col.ten-ninety section.col.five-even section,
-	.col.ten-ninety section.col.six-even section,
-	.col.ten-ninety section.col.seven-even section,
-	.col.ten-ninety section.col.eight-even section,
-	.col.ten-ninety section.col.nine-even section,
-	.col.ten-ninety section.col.ten-even section,
 	.col.fifty-fifty section
 	{
 		width:100%;
 	} 
+
+	.col.ten-ninety section.col.nine-even section {
+		width: 33.33%;
+	}
+
+	.col.ten-ninety section.col.ten-even section {
+		width: 20%;
+	}
+
+	
+	.col.ten-ninety section.col.six-even section,
+	.col.ten-ninety section.col.seven-even section,
+	.col.ten-ninety section.col.eight-even section {
+		width: 50%;
+	}
+
+	.col.ten-ninety section.col.five-even section:nth-child(1) {
+		width: 100%;
+	}
+	.col.ten-ninety section.col.five-even section:nth-child(2),
+	.col.ten-ninety section.col.five-even section:nth-child(3),
+	.col.ten-ninety section.col.five-even section:nth-child(4),
+	.col.ten-ninety section.col.five-even section:nth-child(5) {
+		width: 50%;
+	}
+
+	.col.ten-ninety section.col.seven-even section:nth-child(1) {
+		width: 100%;
+	}
+	.col.ten-ninety section.col.seven-even section:nth-child(2),
+	.col.ten-ninety section.col.seven-even section:nth-child(3),
+	.col.ten-ninety section.col.seven-even section:nth-child(4),
+	.col.ten-ninety section.col.seven-even section:nth-child(5),
+	.col.ten-ninety section.col.seven-even section:nth-child(6),
+	.col.ten-ninety section.col.seven-even section:nth-child(7) {
+		width: 50%;
+	}
+
+	.col.ten-ninety section.col.ten-ninety section,
+	.col.ten-ninety section.col.twenty-eighty section,
+	.col.ten-ninety section.col.thirty-seventy section,
+	.col.ten-ninety section.col.fourty-sixty section,
+	.col.ten-ninety section.col.fifty-fifty section,
+	.col.ten-ninety section.col.sixty-fourty section,
+	.col.ten-ninety section.col.seventy-thirty section,
+	.col.ten-ninety section.col.eighty-twenty section,
+	.col.ten-ninety section.col.ninety-ten section {
+		width: 100%;
+	}
 
 }
 
